@@ -1,0 +1,7 @@
+//Operadores lógicos, ler como uma pergunta, 5 > 3 ?
+    // if, else, else if
+    // a = 5 -> atribuiçao de valor 5 na variavel a
+    // a == 5 -> compareçao de valor de a com o 5 -> resulta em verdadeiro/ falso
+    //! -> significa nao, !ganhou = nao ganhou
+    // & -> e, verdadeiro quando ambos os valores logicos sao verdadeiros
+    // || -> ou, verdadeiro quando pelos menos um valor é verdadeiro
