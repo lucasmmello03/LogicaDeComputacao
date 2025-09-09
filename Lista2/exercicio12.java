@@ -9,9 +9,19 @@ public class exercicio12 {
     System.out.println("Digite a quantidade de maçãs compradas:");
     int quantidadeMacas = scanner.nextInt();
 
-    //Processamento
-    
+    // Processamento
+    double precoPorMaca;
 
+    if (quantidadeMacas >= 12) {
+      precoPorMaca = 1.50;
+    } else {
+      precoPorMaca = 1.30;
+    }
 
+    double precoTotal = quantidadeMacas * precoPorMaca;
+
+    // Saída
+    System.out.println("o preço total da compra é: R$" + precoTotal);
+    scanner.close();
   }
 }
