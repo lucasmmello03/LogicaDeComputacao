@@ -6,7 +6,7 @@ public class ex08 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    //Entrada
+    // Entrada
     System.out.println("Digite seu código:");
     int code = scanner.nextInt();
 
