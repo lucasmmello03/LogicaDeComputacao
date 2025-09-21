@@ -7,22 +7,22 @@ public class ex08 {
     Scanner scanner = new Scanner(System.in);
 
     // Entrada
-    System.out.println("Digite seu código:");
-    int code = scanner.nextInt();
+    System.out.println("Escreva o código do usuário:");
+    String usuario = scanner.next();
 
-    int defaulfCode = 1234;
-    int defaultSenha = 9999;
+    String defaultUser = "1234";
+    String defaultPassword = "9999";
 
     // Processamento e saída
-    if (code != defaulfCode) {
-      System.out.println("Usuário Inválido");
+    if (!usuario.equals(defaultUser)) {
+      System.out.println("Usuario inválido");
     } else {
       System.out.println("Digite sua senha:");
-      int senha = scanner.nextInt();
-      if (senha != defaultSenha) {
-        System.out.println("Senha incorreta");
+      String senha = scanner.next();
+      if (senha.equals(defaultPassword)) {
+        System.out.println("Usuário validado!");
       } else {
-        System.out.println("Acesso permitido");
+        System.out.println("Senha incorreta");
       }
     }
     scanner.close();
